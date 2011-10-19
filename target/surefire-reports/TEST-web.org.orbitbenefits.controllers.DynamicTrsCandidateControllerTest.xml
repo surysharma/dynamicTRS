@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.034" errors="0" skipped="0" tests="1" name="web.org.orbitbenefits.controllers.DynamicTrsCandidateControllerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.1-b02-384"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="9M3425"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/projects/dynamicTRS"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03-384-9M3425"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/projects/dynamicTRS"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/var/folders/dD/dD37cEg6FuSwmoFhzp7tXk+++TI/-Tmp-/surefirebooter789500414957526048.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/dD/dD37cEg6FuSwmoFhzp7tXk+++TI/-Tmp-/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value="/Applications/IntelliJ IDEA 10.app/Contents/Resources/Java:/System/Library/PrivateFrameworks/JavaApplicationLauncher.framework/Resources:.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/projects/dynamicTRS/target/test-classes:/projects/dynamicTRS/target/classes:/Users/sureshsharma/.m2/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/sureshsharma/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/Users/sureshsharma/.m2/repository/org/mockito/mockito-all/1.8.3/mockito-all-1.8.3.jar:/Users/sureshsharma/.m2/repository/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.5.8"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sureshsharma"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sureshsharma"/>
+    <property name="java.class.path" value="/projects/dynamicTRS/target/test-classes:/projects/dynamicTRS/target/classes:/Users/sureshsharma/.m2/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-core/3.0.5.RELEASE/spring-core-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-asm/3.0.5.RELEASE/spring-asm-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-expression/3.0.5.RELEASE/spring-expression-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-beans/3.0.5.RELEASE/spring-beans-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-aop/3.0.5.RELEASE/spring-aop-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-context/3.0.5.RELEASE/spring-context-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-context-support/3.0.5.RELEASE/spring-context-support-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-tx/3.0.5.RELEASE/spring-tx-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-orm/3.0.5.RELEASE/spring-orm-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-web/3.0.5.RELEASE/spring-web-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/org/springframework/spring-webmvc/3.0.5.RELEASE/spring-webmvc-3.0.5.RELEASE.jar:/Users/sureshsharma/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/sureshsharma/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/Users/sureshsharma/.m2/repository/org/mockito/mockito-all/1.8.3/mockito-all-1.8.3.jar:/Users/sureshsharma/.m2/repository/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/var/folders/dD/dD37cEg6FuSwmoFhzp7tXk+++TI/-Tmp-/surefirebooter789500414957526048.jar /var/folders/dD/dD37cEg6FuSwmoFhzp7tXk+++TI/-Tmp-/surefire5508402899379796437tmp /var/folders/dD/dD37cEg6FuSwmoFhzp7tXk+++TI/-Tmp-/surefire3342813652819497736tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/sureshsharma/.m2/repository/"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1050.1.6.0_26-384"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.014" classname="web.org.orbitbenefits.controllers.DynamicTrsCandidateControllerTest" name="shouldReturnTheNewCandidateForm"/>
+</testsuite>
