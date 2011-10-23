@@ -1,6 +1,5 @@
-package web.org.orbitbenefits.controllers;
+package com.orbitbenefits.web.controllers;
 
-import dao.Candidate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

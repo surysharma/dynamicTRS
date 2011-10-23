@@ -21,4 +21,14 @@
         <servlet-name>dynamicTrs</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+      <!--<filter>-->
+          <!--<filter-name>pdfFilter</filter-name>-->
+          <!--<filter-class>web.org.orbitbenefits.filters.PdfFilter</filter-class>-->
+      <!--</filter>-->
+       <!--<filter-mapping>-->
+           <!--<filter-name>pdfFilter</filter-name>-->
+           <!--<url-pattern>/admin/dynamic/trs/candidate/create.html</url-pattern>-->
+       <!--</filter-mapping>-->
+
 </web-app>

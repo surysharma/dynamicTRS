@@ -1,4 +1,4 @@
-package web.org.orbitbenefits.controllers;
+package com.orbitbenefits.web.controllers;
 
 import org.junit.Test;
 import org.springframework.web.servlet.ModelAndView;
